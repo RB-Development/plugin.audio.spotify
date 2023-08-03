@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.audio.spotify" version="20.0.0" name="Spotify" provider-name="glk1001">
     <requires>
-        <import addon="xbmc.python" version="3.0.1"/>
-        <import addon="xbmc.addon" version="19.90.101"/>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="xbmc.addon" version="18.9.701"/>
         <import addon="script.module.requests" version="2.22.0"/>
         <import addon="script.module.simplejson" version="3.17.0"/>
         <import addon="script.module.simplecache" version="2.0.0"/>
