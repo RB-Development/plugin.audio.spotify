@@ -206,7 +206,7 @@ except ImportError:
     def test_callable_spec(callable, args, kwargs):  # noqa: F811
         return None
 else:
-    getargspec = inspect.getargspec
+    getargspec = inspect.getfullargspec(callable)[:4]
     # Python 3 requires using getfullargspec if
     # keyword-only arguments are present
     if hasattr(inspect, 'getfullargspec'):
